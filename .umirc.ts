@@ -12,4 +12,5 @@ export default defineConfig({
       {path: '/register/result', component: '@/pages/registration/result'}
     ]},
   ],
+  exportStatic: {}
 });
