@@ -5,7 +5,7 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/register', component: 'layout/index',
+    { path: '/', component: 'layout/index',
     routes: [
       {path: '/register/', component: '@/pages/registration/GatherData/index'},
       {path: '/register/result', component: '@/pages/registration/result'}
