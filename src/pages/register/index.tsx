@@ -7,8 +7,8 @@ import {
     Button,
     Steps,
 } from 'antd';
-import Card from '../card'
-const { Content, Header } = Layout
+import Card from '@/components/card'
+const { Content } = Layout
 const { Step } = Steps
 
 import { Link } from 'umi';

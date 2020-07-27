@@ -4,16 +4,15 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes: [
-    { path: '/', component: 'layout/index',
-    routes: [
-      {path: '/', component: '@/pages/registration/GatherData/index'},
-      {path: '/register/', component: '@/pages/registration/GatherData/index'},
-      {path: '/register/result', component: '@/pages/registration/result'}
-    ]},
-  ],
+  // routes: [
+  //   {path: "/", component: '@/layouts/index', exact: true,
+  //     routes: [
+  //       {path: '/', component: 'index'},
+  //       {path:"/register", component: '@/pages/register/index', exact:true}
+  //     ]
+  //   }
+  // ],
   exportStatic: {
     dynamicRoot:true,
-    htmlSuffix:true
   }
 });
