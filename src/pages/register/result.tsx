@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Dictionary} from 'lodash'
 import {Result, 
         Layout,
         PageHeader,
@@ -22,7 +23,7 @@ const prompt = {
   "fail": "Sorry, we cannot pass your application",
   "success": `Congrates, your loan was granted @1.25% / month`
 }
-const status = {
+const status: Dictionary<"success" | "error" | "info" | 403 | 404 | 500 | "403" | "404" | "500" | "warning" | undefined> = {
   "waiting": "info",
   "fail": "error",
   "success": "success"
