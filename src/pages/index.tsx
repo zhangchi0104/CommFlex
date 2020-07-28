@@ -21,10 +21,17 @@ export default () => {
         </Paragraph>
         </Col>
       </Row>
-      <Row justify="center" >
+      <Row justify="center" gutter={[16, 0]} >
+        <Col>
         <Button type='primary' shape="round" size="large">
           <Link to='/register'>Get Started{<ArrowRightOutlined />}</Link>
         </Button>
+        </Col>
+        <Col>
+        <Button shape="round" size="large">
+          <Link to='/login'>Login{<ArrowRightOutlined />}</Link>
+        </Button>
+        </Col>
       </Row>
     </div>
 
