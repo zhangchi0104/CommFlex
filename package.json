@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "UMI_UI=1 umi dev",
+    "start": "umi dev",
     "build": "umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
@@ -36,7 +36,5 @@
     "yorkie": "^2.0.0"
   },
   "homepage": "https://zhangchi0104.github.io/CommFlex",
-  "devDependencies": {
-    "@umijs/preset-ui": "^2.2.2"
-  }
+  "devDependencies": {}
 }
